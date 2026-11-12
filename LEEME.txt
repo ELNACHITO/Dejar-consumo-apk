@@ -1,0 +1,34 @@
+MI REGISTRO - Cómo obtener el APK (gratis, sin instalar nada en tu computador)
+============================================================================
+
+Este proyecto se compila solo en GitHub y te deja el archivo MiRegistro.apk
+listo para descargar en tu celular.
+
+1. Crea una cuenta gratis en https://github.com (si no tienes).
+2. Crea un repositorio nuevo: botón "+" > "New repository".
+   Nombre: mi-registro. Puede ser Privado. Clic en "Create repository".
+3. En el repositorio, clic en "uploading an existing file".
+   Descomprime este ZIP y ARRASTRA TODO EL CONTENIDO de la carpeta
+   MiRegistroApp (las carpetas app, .github, y los archivos build.gradle,
+   settings.gradle, gradle.properties). Clic en "Commit changes".
+   IMPORTANTE: la carpeta ".github" está oculta en algunos computadores.
+   Si no se subió, créala a mano: "Add file" > "Create new file" y escribe
+   como nombre:  .github/workflows/build-apk.yml   y pega el contenido de
+   ese archivo.
+4. Ve a la pestaña "Actions". Verás "Construir APK" ejecutándose (3-5 min).
+   Si te pide habilitar Actions, acepta.
+5. Cuando termine con un check verde, ve a la página principal del
+   repositorio > "Releases" (columna derecha) > descarga MiRegistro.apk
+   desde el navegador de tu celular.
+6. Abre el archivo descargado. Android te pedirá permitir "instalar apps
+   de fuentes desconocidas" para tu navegador: acéptalo e instala.
+
+Notas
+- Funciona 100% sin internet. Tus datos se guardan solo dentro de la app.
+- Si desinstalas la app se borran los datos: usa Ajustes > Respaldo >
+  Descargar de vez en cuando.
+- Para pasar lo que ya anotaste en la versión web: en la web ve a
+  Ajustes > Copiar, y en la app ve a Ajustes > pega el texto > Importar.
+- Android puede mostrar "Play Protect" advirtiendo que la app es
+  desconocida: es normal en apps que no vienen de Play Store.
+  Toca "Instalar de todas formas".
